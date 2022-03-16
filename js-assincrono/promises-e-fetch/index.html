@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Promises e Fetch</title>
+	</head>
+	<body>
+		<style>
+			.container {
+				max-width: 500px;
+				margin: 60px auto;
+				padding: 20px;
+				background-color: rgba(0, 0, 0, 0.1);
+			}
+			label {
+				display: block;
+			}
+			input {
+				display: block;
+			}
+		</style>
+		<div class="container">
+			<div>
+				<h2>Busca de CEP</h2>
+				<form id="buscaCep">
+					<label for="cep">CEP</label>
+					<input type="text" name="cep" id="cep" />
+					<input type="button" value="Buscar CEP" id="btnCep" />
+				</form>
+				<div class="resultadoCep"></div>
+			</div>
+			<br />
+
+			<div>
+				<h2>Preço BTC</h2>
+				<p class="btc"></p>
+			</div>
+			<br />
+
+			<div>
+				<h2>Piadoca do Norris</h2>
+				<p class="piada"></p>
+				<button class="proxima">Outra Piada</button>
+			</div>
+		</div>
+		<script src="index.js"></script>
+	</body>
+</html>
